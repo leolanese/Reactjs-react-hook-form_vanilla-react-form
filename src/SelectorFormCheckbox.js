@@ -38,7 +38,7 @@ export default function SelectorFormCheckbox() {
             label="checkbox1"
             value="checkbox1"
             {...register("skills", {
-              required: "Please select at-least one skill"
+              required: "Please select at-least 1 skill"
             })}
           />
           <Form.Check
