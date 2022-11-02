@@ -1,6 +1,10 @@
 # ReactJS forms
 
-There are few interesting ways of dealing with `forms` on ReactJS: We can create a vanilla using plain javascript with ReactJS or we can use libraries that help us to speed up the process. Here we talk about: `react-hook-form` and `vanilla react` (raw). Also, `react-formik` can be found a previous branch: [React-Formik](https://github.com/leolanese/React-formik)[Link text Here](https://link-url-here.org)
+There are few interesting ways of dealing with `forms` on ReactJS: We can create a vanilla using plain javascript with ReactJS or we can use libraries that help us to speed up the process. Here we talk about: `react-hook-form` and `vanilla react` (raw). Also, `react-formik` can be found a previous branch: [ReactJS-Formik forms](https://github.com/leolanese/React-formik)
+
+## Screenshot
+
+![alt text](./ReactFormsPic.JPG)
 
 ## Getting Started with Create React App
 
@@ -72,3 +76,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---
+<h4> Thanks </h4>
+<h5> { 'Leo Lanese',<br>
+       'Building Inspiring Responsive Reactive Solutions',<br>
+       'London, UK' }<br>
+</h5>
+<h5>Twitter:
+<a href="http://twitter.com/LeoLaneseltd" target="_blank">twitter.com/LeoLaneseltd</a>
+</h5>
+<h5>Portfolio
+<a href="http://www.leolanese.com" target="_blank">http://www.leolanese.com</a>
+</h5>
+<h5>DEV.to:
+<a href="http://www.dev.to/leolanese" target="_blank">dev.to/leolanese</a>
+</h5>
+<h5>Blog:
+<a href="http://www.leolanese.com/blog" target="_blank">leolanese.com/blog</a>
+</h5>
+<h5>Questions / Suggestion / Recommendation ?
+<a href="mail:to">developer@leolanese.com</a>
+</h5>
