@@ -5,10 +5,10 @@ import { useForm } from "react-hook-form";
 
 const initialValues = {
   skills: {
-    JavaScript: true,
-    react: false,
-    nodejs: true,
-    angular: false
+    checkbox1: true,
+    checkbox2: false,
+    checkbox3: false,
+    checkbox4: false
   }
 };
 
@@ -34,7 +34,7 @@ export default function SelectorFormCheckbox() {
       <form onSubmit={handleSubmit(onSubmit)}>
 
         <Form.Group className="mb-3" controlId="skills">
-          <Form.Label>Select Your Skills</Form.Label>
+          <Form.Label><h2>Select Your Checkbox</h2></Form.Label>
           <Form.Check
             type="checkbox"
             label="checkbox1"

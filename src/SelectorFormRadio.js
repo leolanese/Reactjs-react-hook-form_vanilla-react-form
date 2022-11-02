@@ -26,7 +26,7 @@ export default function SelectorFormRadio() {
     <div className="container">
       <form onSubmit={handleSubmit(onSubmit)}>
         <Form.Group className="mb-3" controlId="option">
-          <Form.Label>Select Option</Form.Label>
+          <Form.Label><h2>Select Option</h2></Form.Label>
           <Form.Check
             type="radio"
             label="radio1"
