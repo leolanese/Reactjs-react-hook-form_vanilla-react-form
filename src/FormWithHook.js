@@ -6,7 +6,7 @@ function FormWithHook() {
   const {
     register,
     handleSubmit,
-    formState: { errors }
+    formState: { errors },
   } = useForm();
 
   const onSubmit = (data) => {
@@ -39,15 +39,29 @@ function FormWithHook() {
             type="password"
             name="password"
             {...register("password", {
-              required: "Password is required.",
-              minLength: {
-                value: 6,
-                message: "Password should be at-least 6 characters."
+              required: true,
+              validate: {
+                checkLength: (value) => value.length >= 8,
+                matchPattern: (value) =>
+                  /(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s)(?=.*[!@#$*])/.test(
+                    value
+                  )
               }
             })}
           />
-          {errors.password && (
-            <p className="errorMsg">{errors.password.message}</p>
+          {errors.password?.type === "required" && (
+            <p className="errorMsg">Password is required.</p>
+          )}
+          {errors.password?.type === "checkLength" && (
+            <p className="errorMsg">
+              Password should be at-least 8 characters.
+            </p>
+          )}
+          {errors.password?.type === "matchPattern" && (
+            <p className="errorMsg">
+              Password should contain at least one uppercase letter, lowercase
+              letter, digit, and special symbol.
+            </p>
           )}
         </div>
         <div className="form-control">

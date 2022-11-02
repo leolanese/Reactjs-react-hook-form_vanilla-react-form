@@ -4,13 +4,16 @@ import './index.css';
 import FormWithHook from './FormWithHook';
 import FormVanillaReact from './FormVanillaReact';
 import reportWebVitals from './reportWebVitals';
+import MultipleSelectorForm from './MultipleSelectorForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <FormVanillaReact /> 
+    < hr />
     <FormWithHook />
     <hr />
-    {/* <FormVanillaReact /> */}
+    <MultipleSelectorForm />
 
   </React.StrictMode>
 );
