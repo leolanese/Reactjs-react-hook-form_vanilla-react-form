@@ -4,7 +4,7 @@ There are few interesting ways of dealing with `forms` on ReactJS: We can create
 
 ## Screenshot
 
-![alt text](./ReactFormsPic.JPG)
+![alt text](./public/ReactFormsPic.JPG)
 
 ## Getting Started with Create React App
 
