@@ -23,16 +23,14 @@ function FormWithHook() {
             type="text"
             name="email"
             {...register("email", {
-              required: true,
-              pattern: /^[^@ ]+@[^@ ]+\.[^@ .]{2,}$/
+              required: "Email is required.",
+              pattern: {
+                value: /^[^@ ]+@[^@ ]+\.[^@ .]{2,}$/,
+                message: "Email is not valid."
+              }
             })}
           />
-          {errors.email && errors.email.type === "required" && (
-            <p className="errorMsg">Email is required.</p>
-          )}
-          {errors.email && errors.email.type === "pattern" && (
-            <p className="errorMsg">Email is not valid.</p>
-          )}
+          {errors.email && <p className="errorMsg">{errors.email.message}</p>}
         </div>
         <div className="form-control">
 
@@ -41,17 +39,15 @@ function FormWithHook() {
             type="password"
             name="password"
             {...register("password", {
-              required: true,
-              minLength: 8
+              required: "Password is required.",
+              minLength: {
+                value: 6,
+                message: "Password should be at-least 6 characters."
+              }
             })}
           />
-          {errors.password && errors.password.type === "required" && (
-            <p className="errorMsg">Password is required.</p>
-          )}
-          {errors.password && errors.password.type === "minLength" && (
-            <p className="errorMsg">
-              Password should be at-least 6 characters.
-            </p>
+          {errors.password && (
+            <p className="errorMsg">{errors.password.message}</p>
           )}
         </div>
         <div className="form-control">
