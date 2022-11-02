@@ -26,7 +26,7 @@ export default function MultipleSelectorForm() {
       <form onSubmit={handleSubmit(onSubmit)}>
         <h2>Multiselect from dropdown with react-hook-forms</h2>
         <div className="form-control">
-          <label>Select from dropdown</label>
+          <label>Select option</label>
           <Controller
             name="department"
             control={control}
