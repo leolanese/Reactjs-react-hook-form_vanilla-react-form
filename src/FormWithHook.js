@@ -9,9 +9,7 @@ function FormWithHook() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log('onSubmit', data);
-  };
+  const onSubmit = (data) => console.log("onSubmit", data);
 
   return (
     <div className="App">
