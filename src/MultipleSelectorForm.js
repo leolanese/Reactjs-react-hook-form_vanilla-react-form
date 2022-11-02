@@ -4,10 +4,10 @@ import Select from "react-select";
 import './MultipleSelectorForm';
 
 const departments = [
-  { value: "Computer-Science", label: "Computer Science" },
-  { value: "Physics", label: "Physics" },
-  { value: "Chemistry", label: "Chemistry" },
-  { value: "Mathematics", label: "Mathematics" }
+  { value: "Option1", label: "Option1" },
+  { value: "Option2", label: "Option2" },
+  { value: "Option3", label: "Option3" },
+  { value: "Option4", label: "Option4" }
 ];
 
 export default function MultipleSelectorForm() {
