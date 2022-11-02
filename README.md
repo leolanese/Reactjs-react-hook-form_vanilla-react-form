@@ -1,6 +1,6 @@
 # ReactJS forms
 
-There are few interesting ways of dealing with `forms` on ReactJS: We can create a vanilla using plain javascript with ReactJS or we can use libraries that help us to speed up the process. Here we talk about: `react-hook-form` and `vanilla react` (raw). Also, `react-formik` can be found a previous branch: [React-Formik](!https://github.com/leolanese/React-formik)
+There are few interesting ways of dealing with `forms` on ReactJS: We can create a vanilla using plain javascript with ReactJS or we can use libraries that help us to speed up the process. Here we talk about: `react-hook-form` and `vanilla react` (raw). Also, `react-formik` can be found a previous branch: [React-Formik](https://github.com/leolanese/React-formik)[Link text Here](https://link-url-here.org)
 
 ## Getting Started with Create React App
 
