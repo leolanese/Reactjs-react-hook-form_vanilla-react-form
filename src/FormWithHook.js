@@ -16,7 +16,7 @@ function FormWithHook() {
   return (
     <div className="App">
       <form onSubmit={handleSubmit(onSubmit)}>
-        <h2>react-hook-forms with validation</h2>
+        <h2>react-hook-forms with single validation</h2>
         <div className="form-control">
 
           <label>Email</label>
@@ -65,6 +65,8 @@ function FormWithHook() {
             </p>
           )}
         </div>
+
+        
         <div className="form-control">
           <label></label>
           <button type="submit">Login</button>
