@@ -14,14 +14,16 @@ export default function FormVanilla() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(state);
+    console.log('handleSubmit', state);
   };
 
   return (
     <div className="FormVanilla">
       <form onSubmit={handleSubmit}>
+        <h2>Vanilla ReactJS forms</h2>
         <div className="form-control">
           <label>Email</label>
+
           <input
             type="text"
             name="email"
@@ -31,6 +33,7 @@ export default function FormVanilla() {
         </div>
         <div className="form-control">
           <label>Password</label>
+
           <input
             type="password"
             name="password"

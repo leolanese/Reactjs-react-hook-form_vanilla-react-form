@@ -16,6 +16,7 @@ function FormWithHook() {
   return (
     <div className="App">
       <form onSubmit={handleSubmit(onSubmit)}>
+        <h2>react-hook-forms</h2>
         <div className="form-control">
 
           <label>Email</label>
