@@ -10,8 +10,8 @@ root.render(
   <React.StrictMode>
     <FormWithHook />
     <hr />
-    <FormVanillaReact />
-    <hr />
+    {/* <FormVanillaReact /> */}
+
   </React.StrictMode>
 );
 
